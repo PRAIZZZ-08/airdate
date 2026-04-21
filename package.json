@@ -1,0 +1,8 @@
+{
+  "scripts": {
+    "dev": "concurrently \"cd apps/api && go run ./cmd/server\" \"cd apps/web && npm run dev\""
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.0"
+  }
+}
